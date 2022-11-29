@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Dominion Teenagers</title>
+	<link rel="stylesheet"  href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,700;1,300;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+   <section class="sub-header">
+   	<nav>
+   		<a href="index.html"><img src="images/logo.png"></a>
+   		<div class="nav-links" id="navLinks">
+   			<i class="fa fa-times" onclick="hideMenu()"></i>
+   			<ul>
+   				<li><a href="index.html">Home</a></li>
+   				<li><a href="about.html">About</a></li>
+   				<li><a href="news.html">News</a></li>
+   				<li><a href="blog.html">Blog</a></li>
+   				<li><a href="contact.html">Contact</a></li>
+   			</ul>
+   		</div>
+   		<i class="fa fa-bars" onclick="showMenu()"></i>
+   	</nav>
+   	<h1>News </h1>
+   </section>
+<!--------News-------->
+<section class="verse">
+	<h1>Verses Of The Week</h1>
+	<p>Gratitude</p>
+
+
+	<div class="row">
+    	<div class="verse-col">
+    		<h3>Ephesians 5vs20</h3>
+    		<p>Giving thanks always for all things to God the Father in the name of our Lord Jesus Christ</p>
+    	</div>
+    	<div class="verse-col">
+    		<h3>Philippians 4vs6</h3>
+    		<p>Be anxious for nothing but in everything by prayer and supplication with thanksgiving let your request be made known to God </p>
+    	</div>
+    	<div class="verse-col">
+    		<h3>Psalm 100vs4</h3>
+    		<p>Enter into His gates with thanksgiving and into His courts with praise be thankful to Him and bless His name</p>
+    	</div>
+    </div>
+</section>
+
+<section class="verse">
+	<h1>Our Motivation</h1>
+	<p>What Keeps Us Moving</p>
+
+
+	<div class="row">
+    	<div class="verse-col">
+    		<h3>1 Peter 2:9</h3>
+    		<p>But ye are a chosen generation, a royal priesthood, an holy nation, a peculiar people; that ye should shew forth the praises of him who hath called you out of darkness into his marvellous light; </p>
+    	</div>
+    	<div class="verse-col">
+    		<h3>Matthew 5:16</h3>
+    		<p> Let your light so shine before men, that they may see your good works, and glorify your Father which is in heaven.</p>
+    	</div>
+    	<div class="verse-col">
+    		<h3>Deuteronomy 31:6</h3>
+    		<p>Be strong and of a good courage, fear not, nor be afraid of them: for the LORD thy God, He it is that doth go with thee; He will not fail thee, nor forsake thee.</p>
+    	</div>
+    </div>
+</section>
+
+<section class="artiste">
+	<h1>Artiste Of The Week</h1>
+	<p>Trending</p>
+
+	<div class="row">
+		<div class="artiste-col">
+			<img src="images/6.jpg">
+			<h3>Tim Gold</h3>
+			<p>Olurotimi Olumuyiwa popularly referred to as Tim Gold is undoubtedly among the most inspirational Nigerian gospel singers today. The multitalented hitmaker became a sensation in Nigeria when his hit song Papa njo was released in 2018</p>
+		</div>
+		<div class="artiste-col">
+			<img src="images/7.jpg">
+			<h3>Sinach</h3>
+			<p>Sinach is undoubtedly among the most popular Nigerian female gospel singers today. The I Know Who I Am hitmaker made her a sensation in Africa when the song was released</p>
+		</div>
+		<div class="artiste-col">
+			<img src="images/8.jpg">
+			<h3>Frank Edwards</h3>
+			<p>Frank Edwards has established himself as one of the most sought-after Nigerian gospel artists and also one of the best in the entire West African region. The gospel musician also produces and plays several musical instruments.</p>
+		</div>
+	</div>
+</section>
+
+<!--------upcomings-------->
+
+<section class="news">
+	<h1>Upcomings</h1>
+	<p>Events</p>
+	<div class="row">
+		<div class="news-col">
+		   <img src="images/22.jpg">
+		   <div class="layer">
+		   	    <h3>Cooking<br>Competition</h3>
+		   </div>
+		</div>
+		<div class="news-col">
+		   <img src="images/1.jpg">
+		   <div class="layer">
+		   	    <h3>Thank U<br>Lord</h3>
+		   </div>
+		</div>
+		<div class="news-col">
+		   <img src="images/10.png">
+		   <div class="layer">
+		   	    <h3>Teens<br>Excursion</h3>
+		   </div>
+		</div>
+	</div>
+</section>
+
+
+
+
+<!--------Footer-------->
+<section class="footer">
+	<h4>About us</h4>
+	<p>But ye are a chosen generation, a royal priesthood, an holy nation, a peculiar people;<br> that ye should shew forth the praises of him<br> who hath called you out of darkness into his marvellous light; 
+1 Peter 2:9
+</p>
+<div class="icons">
+	<i class="fa fa-facebook"></i>
+	<i class="fa fa-instagram"></i>
+	<i class="fa fa-twitter"></i>
+	<i class="fa fa-youtube"></i>
+</div>
+<p>Made With <i class="fa fa-heart-o"></i> by DOMINION TEENAGERS MEDIA DEPT<br>RCCG HOUSE OF COURAGE JUNIOR CHURCH</p>
+</section>
+
+
+
+
+<!--------JavaScript for Toggle Menu-------->
+<script>
+	
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+    	navLinks.style.right ="0"
+    }
+    function hideMenu(){
+    	navLinks.style.right ="-200px"
+    }
+
+</script>
+</body>
+</html>
